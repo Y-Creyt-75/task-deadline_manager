@@ -1,0 +1,12 @@
+[
+ {"id":"s1","title":"Web Tech lab report","subject":"Web Technologies II","category":"Lab Work","deadline":"2026-10-12","priority":"High","notes":"Include screenshots","done":false},
+ {"id":"s2","title":"OS assignment 3","subject":"Operating Systems","category":"Assignment","deadline":"2026-10-17","priority":"Medium","notes":"","done":false},
+ {"id":"s3","title":"Embedded systems review","subject":"FES","category":"Assignment","deadline":"2026-10-19","priority":"High","notes":"","done":false},
+ {"id":"s4","title":"DBMS practice set","subject":"DBMS","category":"Exam Prep","deadline":"2026-10-24","priority":"Medium","notes":"Joins and normalization","done":false},
+ {"id":"s5","title":"Maths unit test revision","subject":"Mathematics","category":"Exam Prep","deadline":"2026-10-28","priority":"High","notes":"","done":false},
+ {"id":"s6","title":"Python lab 5","subject":"Programming Lab","category":"Lab Work","deadline":"2026-10-10","priority":"Low","notes":"","done":true},
+ {"id":"s7","title":"Networks mini quiz prep","subject":"Computer Networks","category":"Exam Prep","deadline":"2026-11-02","priority":"Low","notes":"","done":false},
+ {"id":"s8","title":"Digital logic assignment","subject":"Digital Electronics","category":"Assignment","deadline":"2026-10-08","priority":"Medium","notes":"","done":true},
+ {"id":"s9","title":"Microproject proposal","subject":"Skill Lab","category":"Lab Work","deadline":"2026-11-05","priority":"Medium","notes":"","done":false},
+ {"id":"s10","title":"Semester exam timetable plan","subject":"General","category":"Exam Prep","deadline":"2026-11-15","priority":"Low","notes":"","done":false}
+]

@@ -1,0 +1,20 @@
+:root{--bg:#fff;--fg:#000;--mute:#666}
+body{background:var(--bg);color:var(--fg);font-family:"Courier New",ui-monospace,monospace;font-size:14px}
+.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--fg);padding:12px 16px}
+.top h1{font-size:18px;margin:0;letter-spacing:2px}
+.panel{border:1px solid var(--fg);padding:14px}
+.panel h2{font-size:13px;letter-spacing:2px;margin:-24px 0 12px;background:var(--bg);display:inline-block;padding:0 6px}
+label{display:block;font-size:12px;text-transform:uppercase;margin-top:8px;color:var(--mute)}
+input,select,textarea{width:100%;border:1px solid var(--fg);border-radius:0;padding:6px;background:var(--bg);color:var(--fg);font:inherit}
+button{border:1px solid var(--fg);background:var(--bg);color:var(--fg);padding:5px 10px;font:inherit;margin:10px 6px 0 0;cursor:pointer}
+button:hover,button:focus-visible{background:var(--fg);color:var(--bg)}
+.errors{color:var(--fg);font-weight:bold;margin:8px 0 0;white-space:pre-line}
+.msg{color:var(--mute)}
+.counter{border:1px solid var(--fg);padding:10px;text-align:center}
+.counter b{display:block;font-size:26px}
+.task{border:1px solid var(--fg);padding:10px;margin-bottom:10px;display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.task.done .t{text-decoration:line-through;color:var(--mute)}
+.tag{padding:0 4px;border:1px solid var(--fg)}
+.tag.OVERDUE,.tag.DUE\ TODAY{background:var(--fg);color:var(--bg)}
+.meta{color:var(--mute);font-size:12px}
+.task button{margin:4px 4px 0 0;padding:2px 8px}
